@@ -1,0 +1,63 @@
+body {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 19px;
+	background-color: powderblue;
+	text-align: center;
+}
+
+h1 {
+	font-size: 60px;
+  background-color: tomato;
+	font-family: verdana;
+	text-align: center;
+}
+
+h1, h4, p, pre, a:link {
+	color: white;
+}
+
+a:link {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: tomato;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: tomato;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a.footer_links {
+	color: black;
+}
+
+img#main-image {
+  width: 200px;
+  height: 200px;
+}
+
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  color: white;
+}
+
+th, td {
+  padding: 15px;
+}
+
+table {
+  margin-left: 250px;
+}
