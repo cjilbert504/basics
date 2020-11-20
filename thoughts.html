@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Free Web thoughts">
+		<meta name="keywords" content="Ruby, Rails, HTML, CSS, JavaScript">
+		<meta name="author" content="murdoch">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="index.css">
+		<script type="text/javascript" src="index.js"></script>
+		<title>Murdoch</title>
+	</head>
+	<body>
+
+		<header>
+			<nav>
+				<ul id="nav">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="thoughts.html">Thoughts</a></li>
+					<li><a href="#">Connect</a></li>
+				</ul>
+			</nav>
+
+			<h1 title="I'm Murdoch">
+				Some <sub>P</sub>rogramming thoughts.
+			</h1>
+			
+			<img src="photos/54157657.jpeg" alt="Mr. Murdoch a.k.a Collin" id="main-image" usemap="#head">
+			<map name="head">
+				<area shape="rect" coords="60, 15, 110, 85" href="https://twitter.com/collin_jilbert" onclick="sendEmTweetin()"></area>
+			</map>
+		</header>
+					
+		<section class="center">
+
+			<p>
+				Have you ever wanted to have a number of different options for the value of an attribute, say on a User model, such as an attribute called role that could be any of the following values:
+			</p>
+
+			<p>
+				admin, volunteer, customer, etc.
+			</p>
+
+			<p>
+				Perhaps you're working on a small version of Airbnb and you want the rental properties to have an availability status but you don't want it based in a boolean type attribute. There are plenty of gems that you could use to achieve this goal but let's explore something that comes with Rails out of the box.
+			</p>
+
+			<p>
+				<a href="https://dev.to/collinjilbert/basic-enum-usage-for-defining-roles-or-statuses-on-models-in-rails-3c2f">
+					Enter ActiveRecord::Enum
+				</a>
+			</p>
+		</section>
+
+		<footer>
+			<address>
+				<a href="mailto:cjilbert504@gmail.com" class="footer_links">email: cjilbert504@gmail.com</a> |
+				<a href="https://twitter.com/collin_jilbert" target="iframe_a" class="footer_links">twitter: @collin_jilbert</a> |
+				<a href="https://www.linkedin.com/in/collin-jilbert/" class="footer_links">linkedin: collin jilbert</a>
+			</address>
+		</footer>
+
+	</body>
+</html>
